@@ -1,0 +1,14 @@
+[package]
+name = "gitgui"
+version = "0.0.1"
+edition = "2021"
+
+[[bin]]
+path = "bin/main.rs"
+name = "GitGui"
+
+[workspace]
+members = [
+    "core",
+    "gui",
+]
