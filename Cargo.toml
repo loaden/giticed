@@ -12,3 +12,6 @@ members = [
     "core",
     "gui",
 ]
+
+[dependencies]
+gui = { path = "gui" }
