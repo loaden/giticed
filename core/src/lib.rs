@@ -1,3 +1,6 @@
+pub const GG_APPNAME: &str = "GitGui";
+pub const GG_VERSION: &str = "0.0.1";
+
 pub fn add(left: usize, right: usize) -> usize {
     left + right
 }

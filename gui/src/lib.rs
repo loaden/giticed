@@ -15,13 +15,13 @@ impl Sandbox for App {
     }
 
     fn title(&self) -> String {
-        String::from("GitGui")
+        String::from(core::GG_APPNAME)
     }
 
     fn update(&mut self, _message: Self::Message) {}
 
     fn view(&self) -> Element<Self::Message> {
-        column![text("Hello")].into()
+        column![text(core::GG_VERSION)].into()
     }
 }
 
