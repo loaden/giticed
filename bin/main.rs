@@ -1,5 +1,5 @@
 use gui::{
-    iced::{self, Sandbox, Settings},
+    iced::{self, Application, Settings},
     App,
 };
 
