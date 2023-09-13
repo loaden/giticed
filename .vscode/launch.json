@@ -1,5 +1,5 @@
 {
-    // 使用 IntelliSense 了解相关属性。 
+    // 使用 IntelliSense 了解相关属性。
     // 悬停以查看现有属性的描述。
     // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
@@ -45,15 +45,15 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug executable 'gitgui'",
+            "name": "Debug executable 'giticed'",
             "cargo": {
                 "args": [
                     "build",
-                    "--bin=gitgui",
-                    "--package=gitgui"
+                    "--bin=giticed",
+                    "--package=giticed"
                 ],
                 "filter": {
-                    "name": "gitgui",
+                    "name": "giticed",
                     "kind": "bin"
                 }
             },
@@ -63,16 +63,16 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in executable 'gitgui'",
+            "name": "Debug unit tests in executable 'giticed'",
             "cargo": {
                 "args": [
                     "test",
                     "--no-run",
-                    "--bin=gitgui",
-                    "--package=gitgui"
+                    "--bin=giticed",
+                    "--package=giticed"
                 ],
                 "filter": {
-                    "name": "gitgui",
+                    "name": "giticed",
                     "kind": "bin"
                 }
             },

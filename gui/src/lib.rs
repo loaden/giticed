@@ -84,7 +84,7 @@ impl Application for App {
     }
 
     fn title(&self) -> String {
-        String::from(core::GG_APPNAME)
+        String::from(core::G_APPNAME)
     }
 
     fn update(&mut self, message: Self::Message) -> Command<Message> {
