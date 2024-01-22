@@ -1,3 +1,4 @@
+#![windows_subsystem = "windows"]
 use gui::{
     iced::{self, Application, Settings},
     App,
